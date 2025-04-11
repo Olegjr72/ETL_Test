@@ -14,6 +14,11 @@ except Exception as E:
         print ("ERROR:", E)        
         sys.exit(-1)
 
+@bot.message_handler(commands=['start'])
+def get_text_messages(message):    
+        out_message = "Welcome"
+        bot.send_message(message.chat.id, out_message)
+
 @bot.message_handler(commands=['report'])
 def get_text_messages(message):
     file_name = 'report/report.xlsx';
