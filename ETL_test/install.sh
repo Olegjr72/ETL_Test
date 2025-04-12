@@ -3,4 +3,4 @@ python3 -m venv ./venv
 ./venv/bin/pip install telebot
 cp ./venv/lib/python3.11/site-packages/* /usr/lib/python3/dist-packages/ -r -n
 
-begin.sh
+./begin.sh

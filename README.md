@@ -10,8 +10,10 @@ git clone https://github.com/Olegjr72/ETL_Test.git
 
 chmod -R +rwx /ETL_Test
 
-/ETL_Test/ETL_Test/install.sh
+run /ETL_Test/ETL_Test/install.sh
 
 run begin.sh
+
+Ask me for  bot KEY 
 
 https://t.me/ETL_Ant_Test_bot
