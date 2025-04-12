@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import telebot
+import subprocess
 from yaml import safe_load
 
 
@@ -16,10 +17,19 @@ except Exception as E:
 
 @bot.message_handler(commands=['report'])
 def get_text_messages(message):
-    file_name = 'report/report.xlsx';
-    with open(file_name, 'rb') as f:
-        bot.send_document(message.chat.id, f)
-            
+    try:
+        file_name = 'report/report.xlsx';
+        with open(file_name, 'rb') as f:
+            bot.send_document(message.chat.id, f)
+    except Exception as E:                    
+            subprocess.run(["python3", "etl_data.py"])
+            try:
+                file_name = 'report/report.xlsx';
+                with open(file_name, 'rb') as f:
+                     bot.send_document(message.chat.id, f)
+            except  Exception as E:        
+                bot.send_message(message.chat.id, E)
+                
 @bot.message_handler(commands=['info'])
 def message_info(message):
         out_message = "ETL bot by Antipin O.O."
