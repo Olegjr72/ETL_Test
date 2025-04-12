@@ -1,4 +1,0 @@
-XLS_FNAME: 'src_data/Просрочено(06.09.2022).xlsx'
-CONN_STRING: 'host=localhost, port=5432, dbname=etl_db user=postgres password=54749014'
-BOT_TOKEN: '0:AskMeForToken'
-CTBI: True
