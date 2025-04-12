@@ -27,6 +27,8 @@ run /ETL_Test/ETL_test/install.sh<br>
 
 //////////////////////////////////////////////////////////////////////////////////////////////<br>
 
+---------------Description-----------------------
+
 conf - configuration file
 
 db_create.py - Create DataBase and table
