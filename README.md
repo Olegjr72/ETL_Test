@@ -4,19 +4,19 @@ docker run --name ETL_Test --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 
 //////////////////////////////////////////////////////////////////////////////////////////////<br>
 //<br>
-//	apt-get update<br>
+// &#9 apt-get update<br>
 //<br>
-//	apt-get upgrade -y<br>
+// &#9 apt-get upgrade -y<br>
 //<br>
-//	apt-get install git -y<br>
+// &#9 apt-get install git -y<br>
 //<br>
-//	git clone https://github.com/Olegjr72/ETL_Test.git<br>
+// &#9 git clone https://github.com/Olegjr72/ETL_Test.git<br>
 //<br>
-//	chmod -R +rwx /ETL_Test<br>
+// &#9	chmod -R +rwx /ETL_Test<br>
 //<br>
-//	cd /ETL_Test/ETL_test<br>
+// &#9	cd /ETL_Test/ETL_test<br>
 //<br>
-//	run /ETL_Test/ETL_test/install.sh<br>
+// &#9	run /ETL_Test/ETL_test/install.sh<br>
 //<br>
 //<br>
 //////////////////////////////////////////////////////////////////////////////////////////////<br>
