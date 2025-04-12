@@ -15,7 +15,7 @@ docker run --name ETL_Test --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 //
 //	cd /ETL_Test/ETL_test
 //
-//	run /ETL_Test/ETL_Test/install.sh
+//	run /ETL_Test/ETL_test/install.sh
 //
 //
 //////////////////////////////////////////////////////////////////////////////////////////////
