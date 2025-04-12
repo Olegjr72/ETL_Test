@@ -35,6 +35,12 @@ def message_info(message):
         out_message = "ETL bot by Antipin O.O."
         bot.send_message(message.chat.id, out_message)
 
+
+@bot.message_handler(commands=['start'])
+def message_info(message):
+        out_message = "Welcome"
+        bot.send_message(message.chat.id, out_message)
+        
 #@bot.message_handler(content_types='text')
 @bot.message_handler(func=lambda message: True)
 def message_reply(message):
