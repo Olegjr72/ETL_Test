@@ -14,9 +14,9 @@ git clone https://github.com/Olegjr72/ETL_Test.git
 
 chmod -R +rwx /ETL_Test
 
-cd /ETL_Test/ETL_test
+cd /ETL_Test
 
-/ETL_Test/ETL_test/install.sh
+/ETL_Test/install.sh
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -32,7 +32,7 @@ etl_bot.py - bot
 
 begin.sh 
 
-Ask me for bot API_KEY 
+Ask me for bot TOKEN
 
 The bot: https://t.me/ETL_Ant_Test_bot
 
