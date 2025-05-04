@@ -1,4 +1,4 @@
-#ETL_Test
+ETL_Test
 
 Docker Image postgres:latest
 
